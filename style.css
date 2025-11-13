@@ -1,0 +1,45 @@
+        body {
+            background-color: #b1c7f6;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: #b1c7f6;
+            border: solid 1px #061050;
+            color: #061050;
+            padding: 40px 30px;
+            border-radius: 15px;
+            max-width: 90%;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            box-shadow: 6px 6px 0 #061050;
+        }
+
+        .message {
+            font-size: 1.8em;
+            font-weight: 500;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+                max-width: 95%;
+            }
+
+            .message {
+                font-size: 2em;
+            }
+        }
