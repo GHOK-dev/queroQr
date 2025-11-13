@@ -1,5 +1,5 @@
         body {
-            background-color: #b1c7f6;
+            background-color: #b1c7f6 !important;
             min-height: 100vh;
             display: flex;
             justify-content: center;
